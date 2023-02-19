@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foodiee
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .logo {
+        display: inline;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .menu {
+        display: inline;
+        float: right;
+        margin: 10px;
+    }
+
+    nav a {
+        color: #fff;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .banner::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(98, 79, 79, 0.19);
+        left: 0;
+        top: 0;
+    }
+</style>
+<body style="margin: 0px;">
+<div class="row banner" style="background-image:url('food1.jpg');min-height: 350px;    position: relative; ">
+    <header>
+        <nav>
+            <div class="logo">Foodiee</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Order Online</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="center" style=" padding-top: 150px; position: relative;">Fun. Fast. Tasty. Delicious</h1>
+
+</div>
+<div>
+    <main>
+        <section>
+            <h2>Our Menu</h2>
+            <p>Check out our delicious food options:</p>
+            <ul>
+                <li>Biriyani</li>
+                <li>chinese cuisines</li>
+                <li>chat items</li>
+                <li>dosas</li>
+                <li>ice creams</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Order Online</h2>
+            <p>Order your favorite food online:</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="food">Food:</label>
+                <input type="text" id="food" name="food"><br><br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</div>
+
+<footer>
+    <p>Copyright © 2023 Foodiee</p>
+</footer>
+</body>
+</html>
